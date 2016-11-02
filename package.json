@@ -1,0 +1,29 @@
+{
+  "name": "retargeting",
+  "version": "1.0.0",
+  "description": "app for integration with partners by model the retargeting",
+  "main": "index.js",
+  "author": "nous dmp",
+  "contributors": [{
+    "name": "Roman Belskiy",
+    "email": "roman.belskij@gmail.com"
+  }],
+  "scripts": {
+    "test": "mocha test --recursion",
+    "start": "forever start --uid `npm get name` -c `npm get node` -a ./index.js",
+    "stop": "forever stop `npm get name`"
+  },
+  "engines": {
+    "node": "6.2.2"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "1.5.2",
+    "dotenv": "2.0.0",
+    "kafka-node": "0.3.3",
+    "recursive-readdir-sync": "1.0.6",
+    "redis": "2.6.2",
+    "request": "2.72.0",
+    "underscore": "1.8.3"
+  }
+}

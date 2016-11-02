@@ -1,0 +1,9 @@
+node_modules
+coverage
+logs
+pids
+test-*
+npm-debug.log
+config.js
+.npmrc
+.env
