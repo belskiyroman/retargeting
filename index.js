@@ -26,9 +26,9 @@ const optionsOfDbManager = {
     host: process.env.dbHost
 };
 const rulesForParseUrl = {
-    kadam: {
-        campaignName: process.env.kadamCampaignName,
-        userId: process.env.kadamUserId
+    test: {
+        campaignName: process.env.testCampaignName,
+        userId: process.env.testUserId
     }
 };
 
